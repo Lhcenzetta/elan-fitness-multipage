@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .grid{
+            display: grid;
+            gap: 13px;
+            grid-template-columns: repeat(6, 1fr);
+        }
+        .grid div { background: #9ad0f5; text-align: center; line-height: 60px; font-size: 28px; }
+        @media (max-width: 1000px) {
+            .grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 992px) {
+            .grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 576px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<div >
+    jans
+    <img src="img/personal-trainer-2.jpg" alt="Une sportive soulève des haltères dans l'espace musculation">
+</div>
+</body>
+</html>
