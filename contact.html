@@ -21,18 +21,18 @@
             height: 100vh;
             display: flex;
             justify-content: center;
-            gap: 10%;
+            gap: 20px;
             align-items: center;
 
         }
 
         img{
-            height: auto;
-            width: 40%;
+            height: 73%;
+            width: 50%;
         }
         .form{
             width: 40%;
-            background-color: rgb(229, 244, 244);
+            background-color: #FF6B2C;
             height: auto;
             
         }
@@ -69,9 +69,27 @@
             padding: 5px;
             width: 94%;
             font-size: 25px;
-            background-color: rgb(40, 68, 227);
+            background-color: rgb(123, 137, 215);
             border: solid 1px white;
             border-radius: 10px;
+            margin-bottom: 5px;
+        }
+        button:hover{
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        @media (max-width: 500px) {
+            section{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                /* justify-content: center; */
+                gap: 20px;
+                align-items: center;
+
+        }
         }
     </style>
 </head>
