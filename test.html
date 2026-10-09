@@ -6,34 +6,43 @@
     <title>Document</title>
     
     <style>
-        .grid{
+        div{
+            text-align: center;
+            font-size: 3rem;
+            width: 90%;
+            height: 150px;
+            background-color: brown;
+            margin: 3px;
+        }article{
             display: grid;
-            gap: 13px;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(3 ,1fr);
+            margin-top: 10%;
         }
-        .grid div { background: #9ad0f5; text-align: center; line-height: 60px; font-size: 28px; }
-        @media (max-width: 1000px) {
-            .grid { grid-template-columns: repeat(3, 1fr); }
+         @media (max-width: 700px) {
+            article{
+                display: grid;
+                grid-template-columns: repeat(2 ,1fr);
+                grid-template-rows: repeat(3, 1fr);
+                margin-top: 10%;
+            }
         }
-        @media (max-width: 992px) {
-            .grid { grid-template-columns: repeat(2, 1fr); }
-        }
-        @media (max-width: 576px) {
-            .grid { grid-template-columns: 1fr; }
+        @media (max-width: 500px) {
+            article{
+                display: grid;
+                grid-template-columns: repeat(1 ,1fr);
+                grid-template-rows: repeat(6, 1fr);
+                margin-top: 10%;
+            }
         }
     </style>
 </head>
-<form>
-    <fieldset>
-        <!-- Titre du groupe -->
-        <legend>Informations de contact</legend>
-
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom">
-
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email">
-    </fieldset>
-</form>
+<article>
+        <div>box1</div>
+        <div>box2</div>
+        <div>box3</div>
+        <div>box4</div>
+        <div>box5</div>
+        <div>box6</div>
+</article>
 </body>
 </html>

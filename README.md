@@ -29,3 +29,5 @@ durant ce periode je document sur balise <form> aven les balise intern comme inp
 pour cote de css , 
 comment ustiliser flex box pour organiser la forme d une page 
 comment manipuler les input on utlisant width , hieght , padding , margin 
+
+#
