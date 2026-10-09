@@ -30,3 +30,11 @@ pour cote de css ,
 comment ustiliser flex box pour organiser la forme d une page 
 comment manipuler les input on utlisant width , hieght , padding , margin 
 
+# les aspet pour jour 4
+
+pour ce jour j'ai vu les point suivant : 
+-  responsive desing avec nos college dans le veille et pour mobile first , de crees desing css pour le mobile screen apre ca passer a etre responsive pour different screeen
+pour faire ca tu va utlise plesieurs technique on css parmis ces technique ona flexbox et grid
+flex box est globalement utlise pout un seul demonsion exemple (nav bar) et grid pour 2D (shop cards).
+- comment deployer une app web sur github pages et vercel 
+- comment travailler avec github  workhub dans une group , comment cree des branch , main - developl - feat/.. 
