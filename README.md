@@ -22,7 +22,7 @@ pour ce jour je document sur CSS in meme articl dan meduin:
 
    - comment jouer pour sa position 
 
-# les aspect a ducomnter 3 
+# les aspect a ducomnter jour 3 
 
 pour ce jour j'essai de rediger contact form from scratch avec html et css
 durant ce periode je document sur balise <form> aven les balise intern comme input , lable , button 
@@ -30,4 +30,3 @@ pour cote de css ,
 comment ustiliser flex box pour organiser la forme d une page 
 comment manipuler les input on utlisant width , hieght , padding , margin 
 
-#
